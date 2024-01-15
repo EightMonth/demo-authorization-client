@@ -1,0 +1,12 @@
+server:
+  port: 9000
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: b1271b40caa9acb27b52
+            client-secret: 059d63d7b4edabb054983f19d79a3296ce50d7db
+            authorizationGrantType: authorization_code
